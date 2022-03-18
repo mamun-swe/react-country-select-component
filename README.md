@@ -15,12 +15,22 @@ npm install --save react-country-select-component
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-country-select-component'
-import 'react-country-select-component/dist/index.css'
+import { ReactCountrySelectComponent } from 'react-country-select-component'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return(
+       <ReactCountrySelectComponent
+        name={'country'}
+        isClearable={true}
+        error={false}
+        label='Country'
+        placeholder={'Select country'}
+        borderRadius={6}
+        defaultvalue={null}
+        onChange={(event) => console.log(event)}
+      />
+    )
   }
 }
 ```
