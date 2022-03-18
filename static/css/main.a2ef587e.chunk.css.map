@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,eACI,iBACJ,CAEA,wBACI,eACI,iBACJ,CACJ","file":"main.a2ef587e.chunk.css","sourcesContent":[".app-container {\n    padding-top: 100px;\n}\n\n@media(min-width: 992px) {\n    .app-container {\n        padding-top: 200px;\n    }\n}"]}
